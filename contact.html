@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contact</title>
+	<link rel="stylesheet" type="text/css" href="contact.css">
+  <script src="https://kit.fontawesome.com/6af70d78ec.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <header>
+    <h1>Hi-Tech Design</h1>
+   <nav>
+     <ul>
+       <li><a href="index.html">Home</a></li>
+       <li><a href="about.html">About Us</a></li>
+       <li><a href="pricing.html">Pricing</a></li>
+       <li><a href="products.html">Products</a></li>
+       <li><a href="contact.html">Contact</a></li>
+     </ul>
+   </nav>
+   <div class="menu-icon">&#9776;</div>
+        <div class="menu-close">&#10006;</div>
+ </header>
+
+
+ <div class="carousel-inner" role="listbox">
+     <div class="item active">
+         <img class="img-responsive" src="img/01.jpg" style = "width: 100%;" alt="Slider Image">
+         <div class="container">
+             <div class="carousel-centered">
+                 <div class="margin-b-40">
+                     <h1 class="carousel-title">Контакти</h1>
+                     <!-- <p class="carousel-title-p">Lorem ipsum dolor amet consectetur adipiscing dolore magna aliqua <br/> enim minim estudiat veniam siad venumus dolore</p> -->
+                 </div>
+                 
+             </div>
+         </div>
+ <!-- Contact List -->
+ <div class="section-seperator">
+  <div class="content-lg-container">
+      <div class="row">
+          <!-- Contact List -->
+          <div class="col-sm-4">
+              <div class="wow-fadeInLeft" >
+                  <h3><a class="link" href="#">Нью-Йорк</a> <span class="text-uppercase">Головний офіс</span></h3>
+                  <p>Ми маємо головний офіс у самому серці Нью-Йорка. Розташування нашого офісу в цьому космополітичному місті надає нам привілейований доступ до найновіших технологічних розробок та творчих індустрійних тенденцій.</p>
+                  <ul class="list-unstyled">
+                      <li><i class="fa-solid fa-phone fa-xs" style="color: rgb(34, 174, 174);  margin-right: 3%;"></i> 1 012 3456 7890</li>
+                      <li><i class="fa-solid fa-envelope fa-xs" style="color: rgb(34, 174, 174);  margin-right: 3%;"></i> hq@acidus.com</li>
+                  </ul>
+              </div>
+          </div>
+          <!-- End Contact List -->
+
+          <!-- Contact List -->
+          <div class="col-sm-4">
+              <div class="wow-fadeInLeft">
+                  <h3><a class="link" href="#">Лондон</a> <span class="text-uppercase">Діяльність</span></h3>
+                  <p>Наша діяльність знаходиться у Лондоні, центрі сучасного дизайну та інновацій. Тут ми зосереджуємося на розробці і втіленні унікальних високотехнологічних рішень, які змінюють погляд на дизайн і створюють непередбачувані експериментальні можливості для наших клієнтів.</p>
+                  <ul class="list-unstyled">
+                      <li><i class="fa-solid fa-phone fa-xs" style="color: rgb(34, 174, 174); margin-right: 3%;"></i> 44 77 3456 7890</li>
+                      <li><i class="fa-solid fa-envelope fa-xs" style="color: rgb(34, 174, 174) ; margin-right: 3%;"></i> operation@acidus.com</li>
+                  </ul>
+              </div>
+          </div>
+          <!-- End Contact List -->
+
+          <!-- Contact List -->
+          <div class="col-sm-4">
+              <div class="wow-fadeInLeft" style="width: 70%;">
+                  <h3><a class="link" href="#">Сінгапур</a> <span class="text-uppercase">Фінанси</span></h3>
+                  <p>Наші фінансові операції базуються в Сінгапурі, глобальному фінансовому центрі, відомому своєю стабільністю та інноваційним підходом до фінансових послуг. Це дозволяє нам забезпечувати прозору та ефективну фінансову управління для наших клієнтів, забезпечуючи фінансову стабільність та надійність нашої компанії.</p>
+                  <ul class="list-unstyled">
+                      <li><i class="fa-solid fa-phone fa-xs" style="color: rgb(34, 174, 174); margin-right: 3%;"></i> 50 012 456 7890</li>
+                      <li><i class="fa-solid fa-envelope fa-xs" style="color: rgb(34, 174, 174);  margin-right: 3%;"></i> finance@acidus.com</li>
+                  </ul>
+              </div>
+          </div>
+          <!-- End Contact List -->
+      </div>
+      <!--// end row -->
+  </div>
+</div>
+<!-- End Contact List -->
+
+      
+
+
+
+<!-- Registration Form -->
+
+<div class="form-container">
+          <h2>Реєстраційна форма</h2>
+          <form id="registration-form">
+            <div class="form-group">
+              <label for="first-name">Ім'я:</label>
+              <input type="text" id="first-name" name="first-name" required>
+              <span class="error-message" id="error-first-name"></span>
+            </div>
+            <div class="form-group">
+              <label for="last-name">Прізвище:</label>
+              <input type="text" id="last-name" name="last-name" required>
+              <span class="error-message" id="error-last-name"></span>
+            </div>
+            <div class="form-group">
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" required>
+              <span class="error-message" id="error-email"></span>
+            </div>
+            <div class="form-group">
+              <label for="phone">Телефон:</label>
+              <input type="tel" id="phone" name="phone" required>
+              <span class="error-message" id="error-phone"></span>
+            </div>
+            <div class="form-group">
+              <label for="comments">Коментарі:</label>
+              <textarea id="comments" name="comments"></textarea>
+            </div>
+            <div class="form-group">
+              <button type="submit" id="register-btn">Надіслати</button>
+            </div>
+          </form>
+        </div>
+        <script src="script.js"></script>
+        <footer>
+          <div class="footer-wrapper">
+            <div class="company-info">
+              <h3>Наша компанія</h3>
+              <p>Нью-Йорк</p>
+              <p> 462 Bergen St Brooklyn</p>
+            </div>
+            <div class="contact-info">
+              <h3>Контактна інформація</h3>
+              <p>Телефон: 0123456789</p>
+              <p>Email: info@company.com</p>
+            </div>
+            <div class="social-media">
+              <h3>Соціальні мережі</h3>
+              <!-- <ul>
+                <li><a href="#"><img class="mesenger" src="img/mesenger/Instagram.jpg" alt="Instagram"></a></li>
+                <li><a href="#"><img class="mesenger" src="img/mesenger/Telegram.jpg"  alt="Telegram"></a></li>
+                <li><a href="#"><img class="mesenger" src="img/mesenger/Twitter.jpg"  alt="Twitter"></a></li>
+                <li><a href="#"><img class="mesenger" src="img/mesenger/Viber.jpg"  alt="Viber"></a></li>
+              </ul> -->
+              <div class="icon">
+                <a href="https://www.instagram.com/" style="text-decoration: none; color: white;"><i class="fa-brands fa-instagram fa-2xl" style="font-size: 200%; margin-top: 5%;"></i></a>
+                <a href="https://www.facebook.com/" style="text-decoration: none; color: white;"><i class="fa-brands fa-facebook fa-2xl" style="font-size: 200%; margin-top: 5%; margin-left: 5%;"></i></a>
+                <a href="https://twitter.com/i/flow/login" style="text-decoration: none; color: white;"><i class="fa-brands fa-twitter fa-2xl"  style="font-size: 200%; margin-top: 5%; margin-left: 5%;"></i></a>
+                <a href="https://web.whatsapp.com/" style="text-decoration: none; color: white;"><i class="fa-brands fa-whatsapp fa-2xl" style="font-size: 200%; margin-top: 5%; margin-left: 5%;"></i></a>
+                <a href="https://web.telegram.org/a/" style="text-decoration: none; color: white;"><i class="fa-brands fa-telegram fa-2xl" style="font-size: 200%; margin-top: 5%; margin-left: 5%;"></i></a>
+            </div>
+            </div>
+          </div>
+        </footer>
+
+        <script>
+           document.querySelector('.menu-icon').addEventListener('click', function () {
+			document.querySelector('nav').classList.add('menu-open');
+			document.querySelector('.menu-icon').style.display = 'none';
+			document.querySelector('.menu-close').style.display = 'block';
+		});
+
+		  document.querySelector('.menu-close').addEventListener('click', function () {
+			document.querySelector('nav').classList.remove('menu-open');
+			document.querySelector('.menu-icon').style.display = 'block';
+			document.querySelector('.menu-close').style.display = 'none';
+		});
+        </script>
+</body>
+</html>
+
+
+
+
